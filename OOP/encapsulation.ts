@@ -23,9 +23,21 @@ class Person {
         }
         throw "Old passwrod doesn't match the current password"
     }
+
+    getPassword(){
+
+    }
+
+    getUsername() {
+        return this.username
+    }
     
 }
 
 let eugenia = new Person('@eugenia', 'Eugenia', 'Musiimemaria')
 // eugenia.setData('@eugenia', 'Eugenia', 'Musiimemaria')
 eugenia.talk()
+
+//Inheritance
+class Woman extends Person {}
+
