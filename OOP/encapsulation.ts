@@ -1,4 +1,4 @@
-class Person {
+class Person1 {
     //Data
     public username: string;
     protected firstname: string;
@@ -34,10 +34,10 @@ class Person {
     
 }
 
-let eugenia = new Person('@eugenia', 'Eugenia', 'Musiimemaria')
+let eugenia = new Person1('@eugenia', 'Eugenia', 'Musiimemaria')
 // eugenia.setData('@eugenia', 'Eugenia', 'Musiimemaria')
 eugenia.talk()
 
 //Inheritance
-class Woman extends Person {}
+class Woman extends Person1 {}
 
