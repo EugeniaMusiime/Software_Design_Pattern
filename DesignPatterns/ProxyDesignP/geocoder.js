@@ -38,7 +38,7 @@ function GeoProxy() {
 
 function run() {
 
-    var geo = new GeoProxy();
+    var geo = new GeoCoder();
 
     // geolocation requests
 
